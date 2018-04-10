@@ -39,7 +39,7 @@ Rails.application.routes.draw do
   #       get 'recent', on: :collection
   #     end
   #   end
-
+  get 'hello_world', to: 'static#hello_world'
   # Example resource route with concerns:
   #   concern :toggleable do
   #     post 'toggle'
